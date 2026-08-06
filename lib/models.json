@@ -1,0 +1,687 @@
+{
+  "openrouter": [
+    {
+      "id": "openai/gpt-5.6",
+      "name": "GPT-5.6 (Sol)",
+      "released": "2026-07-09",
+      "note": "Flagship OpenAI, 1M ctx",
+      "badge": "new"
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "GPT-5.5",
+      "released": "2026-04-24",
+      "note": "Flagship general, 1M ctx"
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "name": "GPT-5.4",
+      "released": "2026-02-10",
+      "note": "Default produksi"
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "name": "Claude Opus 5",
+      "released": "2026-07-24",
+      "note": "Flagship Anthropic",
+      "badge": "new"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "released": "2026-06-30",
+      "note": "Praktis & kuat"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Claude Opus 4.7",
+      "released": "2026-04-10",
+      "note": "Agent kompleks"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "name": "Claude Sonnet 4.6",
+      "released": "2025-11-06",
+      "note": "Workhorse produksi"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Claude Haiku 4.5",
+      "released": "2025-10-15",
+      "note": "Cepat & murah",
+      "badge": "fast"
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "name": "Gemini 3.6 Flash",
+      "released": "2026-07-21",
+      "note": "Token efficient",
+      "badge": "new"
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "released": "2026-05-15",
+      "note": "Latensi rendah"
+    },
+    {
+      "id": "google/gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "released": "2026-04-15",
+      "note": "Reasoning kuat"
+    },
+    {
+      "id": "google/gemini-3-pro",
+      "name": "Gemini 3 Pro",
+      "released": "2025-11-18",
+      "note": "Multimodal"
+    },
+    {
+      "id": "google/gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "released": "2025-12-17",
+      "note": "SWE-bench 78%"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "released": "2025-07-14",
+      "note": "Murah & cepat",
+      "badge": "fast"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "released": "2025-06-17"
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "released": "2025-03-25"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "released": "2026-06-01",
+      "note": "1M ctx, value king",
+      "badge": "new"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "released": "2026-05-15",
+      "note": "Flagship MoE"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek V3.2",
+      "released": "2025-09-25"
+    },
+    {
+      "id": "deepseek/deepseek-r1",
+      "name": "DeepSeek R1",
+      "released": "2025-01-20",
+      "note": "Reasoning"
+    },
+    {
+      "id": "x-ai/grok-4",
+      "name": "Grok 4",
+      "released": "2025-07-09"
+    },
+    {
+      "id": "x-ai/grok-4-fast",
+      "name": "Grok 4 Fast",
+      "released": "2025-07-09",
+      "badge": "fast"
+    },
+    {
+      "id": "openai/gpt-5",
+      "name": "GPT-5",
+      "released": "2025-08-07"
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "name": "GPT-5 mini",
+      "released": "2025-08-07",
+      "badge": "fast"
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "name": "GPT-4.1",
+      "released": "2025-04-14",
+      "note": "Long context"
+    },
+    {
+      "id": "openai/o3",
+      "name": "o3",
+      "released": "2025-04-16",
+      "note": "Deep reasoning"
+    },
+    {
+      "id": "openai/o4-mini",
+      "name": "o4-mini",
+      "released": "2025-04-16",
+      "badge": "fast"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "GPT-OSS 120B",
+      "released": "2025-08-05",
+      "note": "Open weights, gratis",
+      "badge": "free"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "GPT-OSS 20B",
+      "released": "2025-08-05",
+      "note": "Ringan & gratis",
+      "badge": "free"
+    },
+    {
+      "id": "mistralai/mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "released": "2025-09-01"
+    },
+    {
+      "id": "mistralai/mistral-small-3.2",
+      "name": "Mistral Small 3.2",
+      "released": "2025-08-15",
+      "badge": "fast"
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "Kimi K2.6",
+      "released": "2026-03-10",
+      "note": "1T MoE, gratis",
+      "badge": "free"
+    },
+    {
+      "id": "nvidia/nemotron-3-super",
+      "name": "Nemotron 3 Super",
+      "released": "2026-02-01",
+      "note": "1M ctx, gratis",
+      "badge": "free"
+    },
+    {
+      "id": "openrouter/owl-alpha",
+      "name": "Owl Alpha",
+      "released": "2026-04-20",
+      "note": "Gratis, 1.05M ctx",
+      "badge": "free"
+    },
+    {
+      "id": "z-ai/glm-4.5-air",
+      "name": "GLM-4.5 Air",
+      "released": "2025-11-05",
+      "badge": "free"
+    },
+    {
+      "id": "google/gemma-4-31b",
+      "name": "Gemma 4 31B",
+      "released": "2025-10-01",
+      "badge": "free"
+    },
+    {
+      "id": "tencent/hunyuan-hy3",
+      "name": "Hy3 (Hunyuan)",
+      "released": "2026-05-01",
+      "note": "Open MoE",
+      "badge": "new"
+    }
+  ],
+  "openai": [
+    {
+      "id": "gpt-5.6",
+      "name": "GPT-5.6 (Sol)",
+      "released": "2026-07-09",
+      "note": "Flagship, 1M ctx",
+      "badge": "new"
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "released": "2026-07-09",
+      "note": "Seimbang & hemat"
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "released": "2026-07-09",
+      "note": "High-throughput",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-5.5",
+      "name": "GPT-5.5",
+      "released": "2026-04-24",
+      "note": "Flagship general"
+    },
+    {
+      "id": "gpt-5.5-pro",
+      "name": "GPT-5.5 Pro",
+      "released": "2026-04-24",
+      "note": "Extended reasoning"
+    },
+    {
+      "id": "gpt-5.4",
+      "name": "GPT-5.4",
+      "released": "2026-02-10",
+      "note": "Default produksi"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "name": "GPT-5.4 mini",
+      "released": "2026-02-10",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "name": "GPT-5.4 nano",
+      "released": "2026-02-10",
+      "note": "Termurah",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-5.3-codex",
+      "name": "GPT-5.3 Codex",
+      "released": "2025-12-05",
+      "note": "Agentic coding"
+    },
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "released": "2025-08-07"
+    },
+    {
+      "id": "gpt-5-mini",
+      "name": "GPT-5 mini",
+      "released": "2025-08-07",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "GPT-5 nano",
+      "released": "2025-08-07",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "GPT-4.1",
+      "released": "2025-04-14",
+      "note": "Long context, 1M"
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "name": "GPT-4.1 mini",
+      "released": "2025-04-14",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "name": "GPT-4.1 nano",
+      "released": "2025-04-14",
+      "badge": "fast"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "released": "2024-05-13",
+      "note": "Multimodal"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "released": "2024-07-18",
+      "badge": "fast"
+    },
+    {
+      "id": "o3",
+      "name": "o3",
+      "released": "2025-04-16",
+      "note": "Deep reasoning"
+    },
+    {
+      "id": "o3-pro",
+      "name": "o3-pro",
+      "released": "2025-04-16",
+      "note": "Maximum effort"
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4-mini",
+      "released": "2025-04-16",
+      "badge": "fast"
+    },
+    {
+      "id": "o3-mini",
+      "name": "o3-mini",
+      "released": "2025-01-31",
+      "badge": "fast"
+    },
+    {
+      "id": "o1",
+      "name": "o1",
+      "released": "2024-12-17"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "GPT-OSS 120B",
+      "released": "2025-08-05",
+      "badge": "free"
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "GPT-OSS 20B",
+      "released": "2025-08-05",
+      "badge": "free"
+    },
+    {
+      "id": "gpt-live-1",
+      "name": "GPT-Live-1",
+      "released": "2026-05-01",
+      "note": "Voice/real-time"
+    }
+  ],
+  "anthropic": [
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "released": "2026-07-24",
+      "note": "Flagship terbaru",
+      "badge": "new"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "released": "2026-06-30",
+      "note": "Near-Opus, Sonnet cost"
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "released": "2026-05-15"
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "released": "2026-04-10",
+      "note": "Agent kompleks"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "released": "2026-02-05"
+    },
+    {
+      "id": "claude-opus-4-5",
+      "name": "Claude Opus 4.5",
+      "released": "2025-11-24"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "released": "2025-11-06",
+      "note": "Workhorse produksi"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "released": "2025-10-15",
+      "note": "Cepat & murah",
+      "badge": "fast"
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
+      "released": "2025-09-29"
+    },
+    {
+      "id": "claude-opus-4-1",
+      "name": "Claude Opus 4.1",
+      "released": "2025-08-05"
+    },
+    {
+      "id": "claude-sonnet-4-0",
+      "name": "Claude Sonnet 4",
+      "released": "2025-05-14"
+    },
+    {
+      "id": "claude-sonnet-3-7",
+      "name": "Claude Sonnet 3.7",
+      "released": "2025-02-19",
+      "note": "Legacy (retiring)"
+    }
+  ],
+  "google": [
+    {
+      "id": "gemini-3.6-flash",
+      "name": "Gemini 3.6 Flash",
+      "released": "2026-07-21",
+      "note": "GA terbaru",
+      "badge": "new"
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "released": "2026-07-21",
+      "badge": "fast"
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "released": "2026-05-15"
+    },
+    {
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "released": "2026-04-15",
+      "note": "Reasoning kuat"
+    },
+    {
+      "id": "gemini-3.1-flash",
+      "name": "Gemini 3.1 Flash",
+      "released": "2026-03-20"
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "released": "2026-03-03",
+      "badge": "fast"
+    },
+    {
+      "id": "gemini-3-pro",
+      "name": "Gemini 3 Pro",
+      "released": "2025-11-18",
+      "note": "Multimodal"
+    },
+    {
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "released": "2025-12-17"
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "released": "2025-03-25",
+      "note": "1M ctx"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "released": "2025-06-17"
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "released": "2025-07-14",
+      "note": "Murah & cepat",
+      "badge": "fast"
+    },
+    {
+      "id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
+      "released": "2025-02-05",
+      "badge": "fast"
+    },
+    {
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 Pro",
+      "released": "2024-02-15"
+    },
+    {
+      "id": "gemini-1.5-flash",
+      "name": "Gemini 1.5 Flash",
+      "released": "2024-05-01",
+      "badge": "fast"
+    }
+  ],
+  "groq": [
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "GPT-OSS 120B",
+      "released": "2025-08-05",
+      "note": "Coding & reasoning"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "GPT-OSS 20B",
+      "released": "2025-08-05",
+      "badge": "fast"
+    },
+    {
+      "id": "meta-llama/llama-4-maverick-17b-128e-instruct",
+      "name": "Llama 4 Maverick",
+      "released": "2025-04-05"
+    },
+    {
+      "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "name": "Llama 4 Scout",
+      "released": "2025-04-05",
+      "badge": "fast"
+    },
+    {
+      "id": "llama-3.3-70b-versatile",
+      "name": "Llama 3.3 70B",
+      "released": "2024-12-06"
+    },
+    {
+      "id": "llama-3.1-8b-instant",
+      "name": "Llama 3.1 8B Instant",
+      "released": "2024-07-23",
+      "note": "Termurah",
+      "badge": "fast"
+    },
+    {
+      "id": "qwen/qwen3-32b",
+      "name": "Qwen3 32B",
+      "released": "2025-06-10"
+    },
+    {
+      "id": "moonshotai/kimi-k2-instruct-0905",
+      "name": "Kimi K2 Instruct",
+      "released": "2025-09-05"
+    },
+    {
+      "id": "deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek R1 Distill 70B",
+      "released": "2025-01-20"
+    },
+    {
+      "id": "gemma2-9b-it",
+      "name": "Gemma 2 9B",
+      "released": "2024-06-27",
+      "badge": "fast"
+    }
+  ],
+  "deepseek": [
+    {
+      "id": "deepseek-chat",
+      "name": "DeepSeek Chat (V4)",
+      "released": "2026-06-01",
+      "note": "Alias menuju V4 terbaru",
+      "badge": "new"
+    },
+    {
+      "id": "deepseek-reasoner",
+      "name": "DeepSeek Reasoner",
+      "released": "2026-05-15",
+      "note": "Mode reasoning"
+    },
+    {
+      "id": "deepseek-v3.2",
+      "name": "DeepSeek V3.2",
+      "released": "2025-09-25"
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek R1",
+      "released": "2025-01-20",
+      "note": "Reasoning terbuka"
+    },
+    {
+      "id": "deepseek-v3.1",
+      "name": "DeepSeek V3.1",
+      "released": "2025-08-21"
+    }
+  ],
+  "mistral": [
+    {
+      "id": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "released": "2025-11-18",
+      "badge": "new"
+    },
+    {
+      "id": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "released": "2025-09-01"
+    },
+    {
+      "id": "mistral-small-3.2",
+      "name": "Mistral Small 3.2",
+      "released": "2025-08-15",
+      "badge": "fast"
+    },
+    {
+      "id": "codestral-2505",
+      "name": "Codestral",
+      "released": "2025-05-13",
+      "note": "Khusus coding"
+    },
+    {
+      "id": "mistral-large-2411",
+      "name": "Mistral Large 2.1",
+      "released": "2024-11-18"
+    }
+  ],
+  "xai": [
+    {
+      "id": "grok-4",
+      "name": "Grok 4",
+      "released": "2025-07-09",
+      "badge": "new"
+    },
+    {
+      "id": "grok-4-fast",
+      "name": "Grok 4 Fast",
+      "released": "2025-07-09",
+      "badge": "fast"
+    },
+    {
+      "id": "grok-3",
+      "name": "Grok 3",
+      "released": "2025-02-17"
+    },
+    {
+      "id": "grok-3-mini",
+      "name": "Grok 3 mini",
+      "released": "2025-02-17",
+      "badge": "fast"
+    },
+    {
+      "id": "grok-2-1212",
+      "name": "Grok 2",
+      "released": "2024-12-12"
+    }
+  ]
+}
