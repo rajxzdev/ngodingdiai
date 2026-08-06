@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
             </nav>
             <p className="text-xs text-zinc-400 dark:text-zinc-500">
-              © {new Date().getFullYear()} NgodingDiAI · BYOK — API key milikmu, sepenuhnya di browser.
+              © {new Date().getFullYear()} NgodingDiAI · BYOK — API key milikmu, sepenuhnya di browser • ©RAJXZDEV.
             </p>
           </div>
         </footer>
