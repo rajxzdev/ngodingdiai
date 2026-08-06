@@ -134,4 +134,4 @@ curl -I https://<url-vercel>/                # harus 200
 curl "https://<url-vercel>/api/models?provider=openrouter&q=gemini"
 ```
 
-
+# ©RAJXZDEV
